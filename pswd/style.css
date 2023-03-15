@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@100;400;700&display=swap');
+
+:root{
+    --primary-color:#A020F0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    
+ 
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background: url(./bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+
+}
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+h1{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    padding: 10px ;
+    margin: 10px;
+    border: none;
+    background:transparent;
+    outline: transparent;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+    line-height: 30px;
+    font-size: 18px;
+}
+input::placeholder{
+    color: #fff;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.input-box{
+    position: relative;
+    border-bottom: 2px solid #fff;
+    margin: 10px 0;
+}   
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+}
+
+button{
+    width: 100%;
+    background: #301934;
+    color: #fff;
+    padding: 15px;
+    margin-top: 0px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #ffe;
+    color: var(--primary-color);
+}
+
+#toggle{
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.strength {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    bottom: 5px;
+}
+
+#strength-bar {
+    background-color: #dcdcdc;
+    height: 10px;
+    position: relative;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
