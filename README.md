@@ -31,7 +31,7 @@ The Password Strength Checker utilizes the following technologies:
 - JavaScript: For implementing the password strength evaluation logic and real-time feedback functionality.
 
 ## Demo
-Here is a demo of the Password Strenngth Checker. You can try it out by following this link - 
+Here is a demo of the Password Strenngth Checker. You can try it out by following this link - https://password-strength-checker-tutorial.netlify.app/
 
 ## Contributing
 
